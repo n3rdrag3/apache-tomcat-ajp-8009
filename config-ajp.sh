@@ -61,4 +61,4 @@ server {
 	}
 }"
 
-echo "\nDon't forget to curl http://$ip_address:$port_number to test the connection\n"
+echo "\nDon't forget to curl the configured http://127.0.0.1 port to test the connection\n"
