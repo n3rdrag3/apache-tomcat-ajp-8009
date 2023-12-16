@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Check if the user wants to quit
-read -p "Press q to quit or any other key to continue: " choice
-if [[ $choice == "q" ]]; then
-    exit 0
-fi
-
 # Store the IP address in a variable
 read -p "Enter the IP address: " ip
 ip_address="$ip"
